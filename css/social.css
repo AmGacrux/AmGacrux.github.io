@@ -1,0 +1,147 @@
+/*
+.social-buttons{
+    text-align: center;
+}
+
+.social-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+.social-button-fb{
+    background: #3b5998;
+}
+
+.social-button-tw{
+    background: #55acee;
+}
+
+
+.social-button {
+    text-align: center;
+}
+*/
+
+.social-buttons {
+    margin-right:auto;
+}
+
+.social-button {
+    padding: 0.5em;
+    margin: 10px 0;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:16px;
+    text-align:center;
+}
+
+.social-button:before {
+    content: "";
+    display: inline-block;
+    margin: -3px 5px 0 0;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+a.tw-button {
+    color: #fff !important;
+    background: #00aced;
+    border-radius: 3px;
+    border: 3px solid #00aced;
+}
+
+a.tw-button:before {
+    width: 18px;
+    height: 18px;
+    background: url("../images/twitter-512.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+a.tw-button:hover {
+    /*
+    border: 3px solid #94d7ef;
+    background: #94d7ef;
+    */
+    filter:brightness(115%);
+}
+
+a.htn-button {
+    background: transparent;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:16px;
+    border-radius: 3px;
+    border: 3px solid #333333;
+}
+
+a.htn-button:before {
+    width: 32px;
+    height: 32px;
+    background: url("../images/hatenablog-logo.svg") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+a.htn-button:hover {
+    filter:brightness(300%);
+}
+
+a.bk-button {
+    display: block;
+    background: #56970a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:16px;
+    border-radius: 3px;
+    border: 3px solid #56970a;
+}
+
+a.bk-button:before {
+    width: 32px;
+    height: 32px;
+    background: url("../images/book.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+a.bk-button:hover {
+    filter:brightness(115%);
+}
+
+@media screen and (min-width: 768px){
+    a.tw-button {
+        padding: 0.5em 2em;
+        margin: 10px auto;
+        font-size:20px;
+        display:inline-block;
+    }
+    a.tw-button:before {
+        margin: -3px 10px 0 0;
+    }
+    a.htn-button {
+        /*
+        padding: 0.5em 2em;
+        margin: 10px auto;
+        */
+        font-size:20px;
+        display:inline-block;
+    }
+    a.htn-button:before {
+        margin: -3px 10px 0 0;
+    }
+    a.bk-button {
+        padding: 0.5em 2em;
+        margin: 10px auto;
+        font-size:20px;
+        display:inline-block;
+    }
+    a.bk-button:before {
+        margin: -3px 10px 0 0;
+    }
+}
